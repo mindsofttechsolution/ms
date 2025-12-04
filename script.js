@@ -1,22 +1,23 @@
 // --- DATA & STATE ---
 const data = {
     services: [
-        { title: "Network Installation", desc: "Professional structured cabling and Wi-Fi setup for offices.", price: "From Rs. 200", image: "https://images.unsplash.com/photo-1558494949-ef526b0042a0?w=500&q=80" },
-        { title: "CCTV & Security", desc: "Advanced surveillance systems with remote monitoring.", price: "From Rs. 350", image: "https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=500&q=80" },
-        { title: "IT Troubleshooting", desc: "24/7 on-site and remote support for hardware/software issues.", price: "Rs. 50/hr", image: "https://images.unsplash.com/photo-1597733336794-12d05021d510?w=500&q=80" },
+        { title: "Network Installation", desc: "Professional structured cabling and Wi-Fi setup for offices.", price: "From Rs. 2000/per point", image: "https://images.unsplash.com/photo-1558494949-ef526b0042a0?w=500&q=80" },
+        { title: "CCTV & Security", desc: "Advanced surveillance systems with remote monitoring.", price: "From Rs. 3500/per camera", image: "https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=500&q=80" },
+        { title: "IT Troubleshooting", desc: "24/7 on-site and remote support for hardware/software issues.", price: "Rs. 5000/hr", image: "https://images.unsplash.com/photo-1597733336794-12d05021d510?w=500&q=80" },
         { title: "IT Consultancy", desc: "Strategic technology planning for business growth.", price: "Free Quote", image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=500&q=80" }
     ],
     courses: [
-        { title: "Python class", category: "Programming", duration: "8 Weeks", price: "Rs. 15000", image: "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=500&q=80" },
-        { title: "Junior Robotics", category: "Robotics", duration: "4 Weeks", price: "Rs. 10000", image: "https://images.unsplash.com/photo-1581092921461-eab62e97a783?w=500&q=80" },
-        { title: "AL ICT Support", category: "Academic", duration: "Ongoing", price: "Rs. 5000/mo", image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=500&q=80" }
+        { title: "Python class", category: "Programming", duration: "Ongoing", price: "Rs. 5000/mo", image: "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=500&q=80" },
+        { title: "Junior Robotics", category: "Robotics", duration: "Ongoing", price: "Rs. 10000/mo", image: "RoboticClass.png" },
+        { title: "Grade 10 and 11 ICT Support", category: "Academic", duration: "Ongoing", price: "Rs. 2000/mo", image: "Grd10and11.png" },
+        { title: "AL ICT Support", category: "Academic", duration: "Ongoing", price: "Rs. 5000/mo", image: "ALClass.png" }
     ],
     products: [
-        { id: 1, name: "Arduino Uno R3", category: "Robotics", price: 2100.00, stock: true, image: "https://images.unsplash.com/photo-1555449363-15a91f170c30?w=500&q=80" },
-        { id: 2, name: "Sensor Starter Kit", category: "Sensors", price: 5000.00, stock: true, image: "https://images.unsplash.com/photo-1517055248174-e5ea909e845e?w=500&q=80" },
+        { id: 1, name: "Arduino Uno R3", category: "Robotics", price: 1900.00, stock: true, image: "https://images.unsplash.com/photo-1555449363-15a91f170c30?w=500&q=80" },
+        { id: 2, name: "Sensor Starter Kit", category: "Sensors", price: 2500.00, stock: true, image: "https://images.unsplash.com/photo-1517055248174-e5ea909e845e?w=500&q=80" },
         { id: 3, name: "USB 3.0 Hub", category: "Accessories", price: 650.00, stock: true, image: "https://images.unsplash.com/photo-1625842268584-8f3296236761?w=500&q=80" },
-        { id: 4, name: "Precision Tool Set", category: "Tools", price: 2300.00, stock: false, image: "https://images.unsplash.com/photo-1581235720704-06d3acfcb36f?w=500&q=80" },
-        { id: 5, name: "ESP 32", category: "Robotics", price: 1850.00, stock: true, image: "https://tronic.lk/product/nodemcu-esp32-wifi-bluetooth-dual-mode-iot-dev-board?srsltid=AfmBOoqyff4C425JOkOrXIuVwHIgkn0SkFnTV8uTXmSYSjhYGLIgROMu=80" }
+        { id: 4, name: "Precision Tool Set", category: "Tools", price: 2200.00, stock: false, image: "https://images.unsplash.com/photo-1581235720704-06d3acfcb36f?w=500&q=80" },
+        { id: 5, name: "ESP32", category: "Robotics", price: 1850.00, stock: true, image: "https://images.unsplash.com/photo-1550041473-d296a3a8a18a?w=500&q=80" }
     ]
 };
 
@@ -598,4 +599,3 @@ const renderAdmin = () => {
 
 // Initialize
 window.addEventListener('DOMContentLoaded', app.init);
-
