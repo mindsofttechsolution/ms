@@ -16,8 +16,9 @@ const data = {
         { id: 1, name: "Arduino Uno R3", category: "Robotics", price: 1900.00, stock: true, image: "UNO.jpg" },
         { id: 2, name: "Sensor Starter Kit", category: "Sensors", price: 2500.00, stock: true, image: "SENSOR.jpg" },
         { id: 3, name: "USB 3.0 Hub", category: "Accessories", price: 650.00, stock: true, image: "https://images.unsplash.com/photo-1625842268584-8f3296236761?w=500&q=80" },
-        { id: 4, name: "Precision Tool Set", category: "Tools", price: 2200.00, stock: false, image: "https://images.unsplash.com/photo-1581235720704-06d3acfcb36f?w=500&q=80" },
-        { id: 5, name: "ESP32", category: "Robotics", price: 1850.00, stock: true, image: "https://images.unsplash.com/photo-1550041473-d296a3a8a18a?w=500&q=80" }
+        { id: 4, name: "Precision Tool Set", category: "Tools", price: 2200.00, stock: true, image: "TOOL KIT.jpg" },
+        { id: 5, name: "ESP32", category: "Robotics", price: 1850.00, stock: true, image: "ESP.jpg" },
+        { id: 6, name: "BlueTooth Car Kit", category: "Robotics", price: 5550.00, stock: true, image: "BLUE THOOT CAR.jpg" }
     ]
 };
 
@@ -599,5 +600,6 @@ const renderAdmin = () => {
 
 // Initialize
 window.addEventListener('DOMContentLoaded', app.init);
+
 
 
