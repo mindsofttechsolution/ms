@@ -3,7 +3,7 @@ const data = {
     services: [
         { title: "Network Installation", desc: "Professional structured cabling and Wi-Fi setup for offices.", price: "From Rs. 2000/per point", image: "Networking.jpg" },
         { title: "CCTV & Security", desc: "Advanced surveillance systems with remote monitoring.", price: "From Rs. 3500/per camera", image: "https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=500&q=80" },
-        { title: "IT Troubleshooting", desc: "24/7 on-site and remote support for hardware/software issues.", price: "Rs. 5000/hr", image: "https://images.unsplash.com/photo-1597733336794-12d05021d510?w=500&q=80" },
+        { title: "IT Troubleshooting", desc: "24/7 on-site and remote support for hardware/software issues.", price: "Rs. 2000/hr", image: "https://images.unsplash.com/photo-1597733336794-12d05021d510?w=500&q=80" },
         { title: "IT Consultancy", desc: "Strategic technology planning for business growth.", price: "Free Quote", image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=500&q=80" }
     ],
     courses: [
@@ -600,6 +600,7 @@ const renderAdmin = () => {
 
 // Initialize
 window.addEventListener('DOMContentLoaded', app.init);
+
 
 
 
