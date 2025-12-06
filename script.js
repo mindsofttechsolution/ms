@@ -8,16 +8,16 @@ const data = {
     ],
     courses: [
         { title: "Python class", category: "Programming", duration: "Ongoing", price: "Rs. 5000/mo", image: "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=500&q=80" },
-        { title: "Junior Robotics", category: "Robotics", duration: "Ongoing", price: "Rs. 10000/mo", image: "RoboticClass.png" },
-        { title: "Grade 10 and 11 ICT Support", category: "Academic", duration: "Ongoing", price: "Rs. 2000/mo", image: "Grd10and11.png" },
-        { title: "AL ICT Support", category: "Academic", duration: "Ongoing", price: "Rs. 5000/mo", image: "ALClass.png" }
+        { title: "Junior Robotics", category: "Robotics", duration: "Ongoing", price: "Rs. 10000/mo", image: "robotic.jpg" },
+        { title: "Grade 10 and 11 ICT Support", category: "Academic", duration: "Ongoing", price: "Rs. 2000/mo", image: "10and11.jpg" },
+        { title: "AL ICT Support", category: "Academic", duration: "Ongoing", price: "Rs. 5000/mo", image: "al.jpg" }
     ],
     products: [
         { id: 1, name: "Arduino Uno R3", category: "Robotics", price: 1900.00, stock: true, image: "UNO.jpg" },
         { id: 2, name: "Sensor Starter Kit", category: "Sensors", price: 2500.00, stock: true, image: "SENSOR.jpg" },
-        { id: 3, name: "USB 3.0 Hub", category: "Accessories", price: 650.00, stock: true, image: "https://images.unsplash.com/photo-1625842268584-8f3296236761?w=500&q=80" },
+        { id: 3, name: "USB 3.0 Hub", category: "Accessories", price: 650.00, stock: true, image: "USB 3.0.jpg" },
         { id: 4, name: "Precision Tool Set", category: "Tools", price: 2200.00, stock: true, image: "TOOL KIT.jpg" },
-        { id: 5, name: "ESP32", category: "Robotics", price: 1850.00, stock: true, image: "ESP.jpg" },
+        { id: 5, name: "ESP32", category: "Robotics", price: 1850.00, stock: true, image: "ESP32.jpg" },
         { id: 6, name: "BlueTooth Car Kit", category: "Robotics", price: 5550.00, stock: true, image: "BLUE THOOT CAR.jpg" }
     ]
 };
@@ -600,6 +600,7 @@ const renderAdmin = () => {
 
 // Initialize
 window.addEventListener('DOMContentLoaded', app.init);
+
 
 
 
