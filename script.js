@@ -18,7 +18,8 @@ const data = {
         { id: 3, name: "USB 3.0 Hub", category: "Accessories", price: 650.00, stock: true, image: "USB 3.0.jpg" },
         { id: 4, name: "Precision Tool Set", category: "Tools", price: 2200.00, stock: true, image: "TOOL KIT.jpg" },
         { id: 5, name: "ESP32", category: "Robotics", price: 1850.00, stock: true, image: "ESP32.jpg" },
-        { id: 6, name: "BlueTooth Car Kit", category: "Robotics", price: 5550.00, stock: true, image: "BLUE THOOT CAR.jpg" }
+        { id: 6, name: "BlueTooth Car Kit", category: "Robotics", price: 5550.00, stock: true, image: "BLUE THOOT CAR.jpg" },
+        { id: 7, name: "Smart Garden", category: "Robotics", price: 5550.00, stock: true, image: "SMART GARDEN.jpg" }
     ]
 };
 
@@ -600,6 +601,7 @@ const renderAdmin = () => {
 
 // Initialize
 window.addEventListener('DOMContentLoaded', app.init);
+
 
 
 
